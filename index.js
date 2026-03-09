@@ -18,11 +18,9 @@ resultado.innerText =
 Poderia dar uma diferença de no máximo ${tolerancia.toFixed(2)} kg.
 A diferença acima do permitido foi ${excesso.toFixed(2)} kg.
 Isso representa ${percentual.toFixed(2)}% da carga.`;
-
 }else{
 resultado.innerText = "Peso dentro da tolerância.";
 }
-
 } 
 
 function reiniciar(){
