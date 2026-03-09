@@ -12,19 +12,21 @@
 
 <h1>Calculadora de Quebra de Carga</h1>
 
-<label>Peso da Nota (kg)</label>
-<input type="number" id="pesoNota">
+<form id="formulario">
+  <label>Peso da Nota (kg)</label>
+  <input type="number" id="pesoNota">
 
-<label>Peso Final (kg)</label>
-<input type="number" id="pesoFinal">
+  <label>Peso Final (kg)</label>
+  <input type="number" id="pesoFinal">
 
-<button onclick="calcular()">Calcular</button>
-<button onclick="reiniciar()">Reiniciar</button>
+  <button type="button" onclick="calcular()">Calcular</button>
+  <button type="button" onclick="reiniciar()">Reiniciar</button>
+</form>
 
 <p id="resultado"></p>
 
 </div>
 
-<script src=".js"></script>
+<script src="index.js"></script>
 
 </body>
